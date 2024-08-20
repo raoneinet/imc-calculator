@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+    --ftTx-color: #444;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 700px;
+    padding: 10px;
+    border: 1px solid var(--ftTx-color);
+    color: var(--ftTx-color);
+}
+
+.imc-area{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imc-fields{
+    margin-top: 40px;
+}
+
+input{
+    padding: 10px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    opacity: 0.6;
+    color: var(--ftTx-color);
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #36B1DF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.result{
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #333;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.answer{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    height: 300px;
+    border: 1px solid #fff;
+    color: #fff;
+}
