@@ -1,15 +1,39 @@
-# imc-calculator
-Calculador de IMC
+# ⚖️ Calculadora de IMC
 
-//Aplicação calculadora de IMC (Indice de Massa Corporal), usando HMTL, CSS, JS;
+Aplicação simples para calcular o **IMC (Índice de Massa Corporal)**, desenvolvida com **HTML**, **CSS** e **JavaScript**. 
 
-//Aplicação responsiva;
+---
 
-//Algoritmo para cálculo:  IMC = peso / (altura x altura);
+## 📌 Funcionalidades
 
-//Aplicação composta de:
-//Inputs para dados;
-//Tela de resultado;
+- ✅ Cálculo automático do IMC:  
+  `IMC = peso / (altura × altura)`
+- ✅ Interface clara e responsiva;
+- ✅ Inputs para peso (kg) e altura (m);
+- ✅ Exibição do resultado com interpretação (ex: Abaixo do peso, Normal, Sobrepeso, etc.).
+
+---
+
+## 💻 Tecnologias usadas
+
+- HTML5  
+- CSS3  
+- JavaScript
+
+---
+
+## 🧱 Estrutura da aplicação
+
+- Campos de entrada para dados do usuário (peso e altura);
+- Botão para calcular;
+- Tela/área para exibir o resultado do IMC.
+
+---
+
+## 📱 Responsividade
+
+Aplicação adaptável para diferentes tamanhos de tela:  
+funciona bem em **celulares**, **tablets** e **desktops**.
 
 PC view
 
